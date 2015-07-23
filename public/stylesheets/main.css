@@ -1,5 +1,6 @@
+
 .jumbotron {
-  background: #532F8C;
+  background: #FFFFFF;
   color: white;
   padding-bottom: 80px; }
   .jumbotron .btn-primary {
@@ -8,9 +9,21 @@
     .jumbotron .btn-primary:hover {
       background: #7646c1; }
   .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
+	font-family: "HelveticaNeueW02-45Ligh", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+    margin: 0 0 10px;
+	font-size: medium;
+	color:#ccc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+  }
+	.jumbotron h1 {
+	font-family: "HelveticaNeueW02-45Ligh", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	color:#0092DA;
+	font-size: 3em;
+	line-height: 1.1em;
+	}
   .navbar + .jumbotron {
     margin-top: -20px; }
   .jumbotron .lang-logo {
@@ -25,3 +38,36 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+.login {
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: "HelveticaNeueW02-45Ligh", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	font-size: medium;
+	color:#000;
+}
+
+.login h2{
+	font-family: "HelveticaNeueW02-45Ligh", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	color:#0092DA;
+	font-size: 25px;
+	line-height: 1.1em;
+}
+
+.login h3 {
+	  font-size: 20px;
+	  display: inline;
+}
+
+.form-control {
+  display: inline;
+  width: 15%;
+  height: 32px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
